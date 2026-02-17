@@ -3,10 +3,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # 1. Verileri Yükle
-# Dosya yollarını senin VS Code listendeki isimlere göre güncelledim
+
 try:
     df_country = pd.read_csv('top_countries_by_sales.csv')
-    # Eğer bu dosya processed_data klasörü içindeyse yolu 'processed_data/monthly_sales_trends_2025.csv' yapmalısın
+    
     df_trends = pd.read_csv('processed_data:monthly_sales_trends_2025.csv') 
     print("Veriler yüklendi!")
 except Exception as e:
